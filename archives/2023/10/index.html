@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -143,6 +144,8 @@
     <div id="menu-curtain" @click="showMenuItems = !showMenuItems" v-show="showMenuItems"></div>
 </transition>
 
+
+
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
             
 <div id="archives">
@@ -184,7 +187,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2023 - 2023 Adele Felice的小窝
+            2024 - 2023 Adele Felice的小窝
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -211,6 +214,12 @@
     
 </body>
 </html>
+<!--aplayer-->
+              <link rel="stylesheet" href="/js/dist/APlayer.min.css">
+              <div id="aplayer"></div>
+              <script src="/js/dist/APlayer.min.js"></script>
+              <script src="/js/useaplayer.js"></script>
+
 <canvas
     id="fireworks"
     style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"
@@ -220,3 +229,8 @@
 <div id="cursor"></div>
 <link rel="stylesheet" href="/css/cursor.min.css" />
 <script src="/js/cursor.min.js"></script>
+
+
+
+
+
