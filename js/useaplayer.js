@@ -20,10 +20,10 @@ const ap = new APlayer({
             lrc: 'https://moechun.fun/music/lrc/さユり - 花の塔.lrc'
         },
         {
-            name: '花の塔',
-            artist: 'さユり',
-            url: 'http://music.163.com/song/media/outer/url?id=1956534872.mp3',
-            cover: 'https://p2.music.126.net/fS_5RbP_4qg-RYreqp2tGg==/109951167558017839.jpg?param=130y130',
+            name: 'Pixel Time',
+            artist: '蜜柑黛西蕾',
+            url: 'http://music.163.com/song/media/outer/url?id=2062135555.mp3',
+            cover: 'https://p2.music.126.net/NiHQRBqasAOAJdzk8hiKAg==/109951168723181271.jpg?param=130y130',
             lrc: 'https://moechun.fun/music/lrc/さユり - 花の塔.lrc'
         },
     ]
